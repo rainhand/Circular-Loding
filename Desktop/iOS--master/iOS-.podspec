@@ -1,15 +1,16 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "iOS-DSL-chaine"
-  s.version      = "1.0.0"
-  s.summary      = "使用OC实现链式编程DSL"
-  s.homepage     = "https://github.com/rainhand/iOS-DSL-chaine"
+  s.name         = "iOS-"
+  s.version      = "5.0.0"
+  s.summary      = "iOS控件tableview刷新"
+  s.homepage     = "https://github.com/rainhand/iOS-"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "rainhand" => "email@address.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/rainhand/iOS-DSL-chaine.git", :tag => "1.0.0" }
-  s.source_files  = 'DSL/DLS/*.{h,m}'
+  s.source       = { :git => "https://github.com/rainhand/iOS-.git", :tag=> "5.0.0" }
+
+  s.source_files  = "iOS--master", "TableViewRefresh/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
