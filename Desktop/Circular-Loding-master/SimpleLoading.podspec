@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SimpleLoading"
-  s.version      = "2.0"
+  s.version      = "4.0.0"
   s.summary      = "description of SimpleLoading.Everyone know"
   s.homepage     = "https://github.com/rainhand/Circular-Loding"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/rainhand/Circular-Loding.git", :tag => "2.0" }
+  s.source       = { :git => "https://github.com/rainhand/Circular-Loding.git", :tag => "4.0.0" }
 
   s.source_files  = "圆形渐变下载框", "圆形渐变下载框/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+ # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
